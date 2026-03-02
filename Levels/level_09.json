@@ -1,0 +1,24 @@
+﻿{
+  "title": "LEVEL 9",
+  "sub": "TWIN RAILS",
+  "ammo": 26,
+  "spawn": [120, 900],
+  "riddle": null,
+  "plats": [[200, 860, 260, 20], [520, 760, 220, 20], [860, 860, 220, 20], [1200, 760, 220, 20], [1540, 860, 220, 20]],
+  "moving_platforms": [
+    {"id": "rail_1", "x": 720, "y": 920, "w": 140, "h": 20, "ex": 920, "ey": 920, "speed": 3},
+    {"id": "rail_2", "x": 1320, "y": 640, "w": 140, "h": 20, "ex": 1520, "ey": 640, "speed": 3}
+  ],
+  "doors": [
+    {"id": "door_1", "x": 480, "y": 640, "w": 50, "h": 340},
+    {"id": "door_2", "x": 1120, "y": 640, "w": 50, "h": 340}
+  ],
+  "buttons": [
+    {"type": "large", "x": 290, "y": 812, "w": 72, "h": 48, "label": "RAIL 1", "links": ["rail_1"]},
+    {"type": "small", "x": 680, "y": 735, "label": "DOOR 1", "links": ["door_1"]},
+    {"type": "large", "x": 980, "y": 712, "w": 72, "h": 48, "label": "RAIL 2", "links": ["rail_2"]},
+    {"type": "small", "x": 1460, "y": 735, "label": "DOOR 2", "links": ["door_2"]}
+  ],
+  "cracks": [],
+  "portal": {"x": 1840, "y": 930, "r": 36}
+}

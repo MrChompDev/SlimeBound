@@ -1,0 +1,22 @@
+﻿{
+  "title": "LEVEL 2",
+  "sub": "BACKWARDS FOREST I",
+  "ammo": 20,
+  "spawn": [120, 900],
+  "riddle": null,
+  "plats": [[200, 830, 250, 20], [560, 700, 180, 20], [820, 780, 250, 20], [1150, 660, 200, 20], [1450, 780, 200, 20]],
+  "moving_platforms": [
+    {"id": "lift_a", "x": 390, "y": 920, "w": 130, "h": 20, "ex": 390, "ey": 720, "speed": 2}
+  ],
+  "doors": [
+    {"id": "door_a", "x": 510, "y": 680, "w": 55, "h": 300},
+    {"id": "door_b", "x": 1110, "y": 640, "w": 55, "h": 340}
+  ],
+  "buttons": [
+    {"type": "small", "x": 300, "y": 805, "label": "PISTOL", "links": ["door_a"]},
+    {"type": "large", "x": 600, "y": 650, "w": 72, "h": 48, "label": "HUSH", "links": ["lift_a"]},
+    {"type": "small", "x": 920, "y": 755, "label": "PISTOL", "links": ["door_b"]}
+  ],
+  "cracks": [],
+  "portal": {"x": 1580, "y": 930, "r": 36}
+}

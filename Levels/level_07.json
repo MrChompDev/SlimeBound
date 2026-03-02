@@ -1,0 +1,22 @@
+﻿{
+  "title": "LEVEL 7",
+  "sub": "SUNKEN SWITCHES",
+  "ammo": 24,
+  "spawn": [120, 900],
+  "riddle": "Two heavy hits raise the path.",
+  "plats": [[220, 860, 260, 20], [620, 760, 210, 20], [980, 660, 210, 20], [1360, 560, 210, 20]],
+  "moving_platforms": [
+    {"id": "rise_1", "x": 520, "y": 930, "w": 120, "h": 20, "ex": 520, "ey": 760, "speed": 2},
+    {"id": "rise_2", "x": 1220, "y": 930, "w": 120, "h": 20, "ex": 1220, "ey": 640, "speed": 2}
+  ],
+  "doors": [
+    {"id": "door_final", "x": 1680, "y": 520, "w": 54, "h": 460}
+  ],
+  "buttons": [
+    {"type": "large", "x": 300, "y": 820, "w": 72, "h": 48, "label": "RAISE A", "links": ["rise_1"]},
+    {"type": "large", "x": 860, "y": 620, "w": 72, "h": 48, "label": "RAISE B", "links": ["rise_2"]},
+    {"type": "small", "x": 1520, "y": 535, "label": "FINAL", "links": ["door_final"]}
+  ],
+  "cracks": [],
+  "portal": {"x": 1820, "y": 930, "r": 36}
+}

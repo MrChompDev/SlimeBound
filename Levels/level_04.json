@@ -1,0 +1,25 @@
+﻿{
+  "title": "LEVEL 4",
+  "sub": "GLASS DESERT I",
+  "ammo": 20,
+  "spawn": [120, 900],
+  "riddle": null,
+  "plats": [[200, 860, 250, 20], [500, 760, 200, 20], [760, 640, 200, 20], [1030, 760, 220, 20], [1340, 640, 200, 20], [1620, 760, 200, 20]],
+  "moving_platforms": [],
+  "doors": [
+    {"id": "door_1", "x": 460, "y": 740, "w": 40, "h": 240},
+    {"id": "door_2", "x": 720, "y": 620, "w": 40, "h": 360},
+    {"id": "door_3", "x": 990, "y": 740, "w": 40, "h": 240},
+    {"id": "door_4", "x": 1300, "y": 620, "w": 40, "h": 360},
+    {"id": "gate", "x": 1580, "y": 540, "w": 55, "h": 440}
+  ],
+  "buttons": [
+    {"type": "small", "x": 310, "y": 835, "label": "CRYSTAL", "links": ["door_1"]},
+    {"type": "small", "x": 610, "y": 735, "label": "CRYSTAL", "links": ["door_2"]},
+    {"type": "small", "x": 870, "y": 615, "label": "CRYSTAL", "links": ["door_3"]},
+    {"type": "small", "x": 1140, "y": 735, "label": "CRYSTAL", "links": ["door_4"]},
+    {"type": "large", "x": 1440, "y": 610, "w": 72, "h": 48, "label": "HUSH GATE", "links": ["gate"]}
+  ],
+  "cracks": [],
+  "portal": {"x": 1820, "y": 930, "r": 36}
+}

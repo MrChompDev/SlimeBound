@@ -1,0 +1,17 @@
+﻿{
+  "title": "LEVEL 1",
+  "sub": "THE THRESHOLD",
+  "ammo": 15,
+  "spawn": [120, 900],
+  "riddle": null,
+  "plats": [[350, 800, 200, 20], [700, 720, 200, 20], [1050, 800, 200, 20]],
+  "moving_platforms": [],
+  "doors": [
+    {"id": "door_a", "x": 920, "y": 700, "w": 55, "h": 280}
+  ],
+  "buttons": [
+    {"type": "small", "x": 500, "y": 775, "label": "PISTOL", "links": ["door_a"]}
+  ],
+  "cracks": [],
+  "portal": {"x": 1250, "y": 930, "r": 36}
+}

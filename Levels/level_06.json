@@ -1,0 +1,22 @@
+﻿{
+  "title": "LEVEL 6",
+  "sub": "MIRROR BRIDGE",
+  "ammo": 22,
+  "spawn": [120, 900],
+  "riddle": null,
+  "plats": [[210, 820, 240, 20], [540, 700, 200, 20], [860, 820, 200, 20], [1180, 700, 200, 20], [1500, 820, 220, 20]],
+  "moving_platforms": [
+    {"id": "mid_lift", "x": 980, "y": 920, "w": 150, "h": 20, "ex": 980, "ey": 690, "speed": 3}
+  ],
+  "doors": [
+    {"id": "left_gate", "x": 500, "y": 620, "w": 52, "h": 360},
+    {"id": "right_gate", "x": 1120, "y": 620, "w": 52, "h": 360}
+  ],
+  "buttons": [
+    {"type": "small", "x": 340, "y": 795, "label": "LEFT", "links": ["left_gate"]},
+    {"type": "large", "x": 760, "y": 670, "w": 72, "h": 48, "label": "LIFT", "links": ["mid_lift"]},
+    {"type": "small", "x": 1360, "y": 675, "label": "RIGHT", "links": ["right_gate"]}
+  ],
+  "cracks": [],
+  "portal": {"x": 1760, "y": 930, "r": 36}
+}

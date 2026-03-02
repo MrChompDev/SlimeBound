@@ -1,0 +1,21 @@
+﻿{
+  "title": "LEVEL 3",
+  "sub": "BACKWARDS FOREST II",
+  "ammo": 18,
+  "spawn": [120, 900],
+  "riddle": "\"Forward I fall, backward I rise.\"",
+  "plats": [[250, 830, 220, 20], [550, 720, 180, 20], [820, 620, 180, 20], [1080, 720, 220, 20], [1380, 800, 220, 20]],
+  "moving_platforms": [],
+  "doors": [
+    {"id": "door_a", "x": 490, "y": 700, "w": 55, "h": 280},
+    {"id": "door_b", "x": 770, "y": 600, "w": 55, "h": 380},
+    {"id": "door_c", "x": 1040, "y": 700, "w": 55, "h": 280}
+  ],
+  "buttons": [
+    {"type": "small", "x": 380, "y": 805, "label": "1ST", "links": ["door_a"]},
+    {"type": "small", "x": 680, "y": 695, "label": "2ND", "links": ["door_b"]},
+    {"type": "small", "x": 960, "y": 595, "label": "3RD", "links": ["door_c"]}
+  ],
+  "cracks": [],
+  "portal": {"x": 1560, "y": 930, "r": 36}
+}
